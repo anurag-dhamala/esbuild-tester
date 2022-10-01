@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/log.ts", "../../index.ts"],
+  "sourcesContent": ["export const test=()=>{\n    console.log(\"i am testing  in log function\");\n}", "import { test } from \"./src/log\"\nconst testFunction = (text: string)=>{\n    console.log(`Hello, ${text}`);\n}\n\ntestFunction(\"Anurag\");\ntest();"],
+  "mappings": "MAAO,IAAMA,EAAK,IAAI,CAClB,QAAQ,IAAI,+BAA+B,CAC/C,ECDA,IAAMC,EAAgBC,GAAe,CACjC,QAAQ,IAAI,UAAUA,GAAM,CAChC,EAEAD,EAAa,QAAQ,EACrBE,EAAK",
+  "names": ["test", "testFunction", "text", "test"]
+}

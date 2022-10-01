@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node esbuilder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.10",
+    "esbuild-register": "^3.3.3"
+  }
+}
